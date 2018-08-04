@@ -1,0 +1,317 @@
+* {
+    padding: 0; 
+    margin: 0px;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+@font-face {
+    font-family: 'hanyishuhun';
+    src: url('./font/hanyishuhun.TTF');
+}
+
+
+.clearfix::after {
+   content: "";
+   display: block;
+   clear: both;
+}
+
+
+
+.rightMain {
+    display: flex;
+    flex-direction: column;
+    margin-left: 480px;
+}
+
+
+.homePage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 576px;
+    height: 100%;
+    background-image: url(../Image/bg2.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+.mask {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainInformation {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+
+.mainInformation h1 {
+    font-size: 100px;
+    color: aliceblue;
+    font-family: 'hanyishuhun';
+}
+
+.mainInformation .navBar a {
+    color: aliceblue;
+    border: 2px solid aliceblue;
+    padding: 11px 28px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 600px;
+    font-family: 'hanyishuhun';
+}
+
+.mainInformation .navBar a:hover {
+    color: black;
+    background-color: aliceblue;
+    padding: 11px 28px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600px;
+    font-family: 'hanyishuhun';
+}
+
+
+.mainInformation .navBar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 40px;
+}
+
+.mainInformation .navBar ul li {
+    margin: 0 6px;
+}
+
+
+.socialBar {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialBar svg {
+    width: 30px;
+    height: 30px;
+    fill: aliceblue;
+}
+
+.socialBar a {
+    display: inline-block;
+    border-radius: 50%;
+    padding: 6px;
+    margin: 0 6px;
+}
+
+.socialBar a:hover {
+    background-color: aliceblue;
+    border-radius: 50%;
+    padding: 6px;
+    margin: 0 6px;
+}
+
+.socialBar svg:hover {
+    fill: rgb(19, 15, 15);
+}
+
+
+.rightMain {
+  
+}
+
+
+.rightMain h2 {
+    color: #3d4451;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'hanyishuhun';
+}
+
+
+
+
+.userCard {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    box-shadow: 2px 4px 15px 0px rgba(125,125,125,1);
+    margin-top: 30px;
+}
+
+
+
+.hello {
+    /* background-color: #e8676b; */
+    background-color: #bf3419;
+    padding: 4px 16px;
+    display: inline-block;
+    line-height: 21px;
+    color: white;
+    position: relative;
+   
+}
+
+
+.trangle {
+    width: 0;
+    height: 0;
+    border: 12px solid #bf3419;
+    border-right-color:transparent;
+    border-bottom-color:transparent;
+    border-top-width: 0px; 
+    position: absolute;
+    left: 10px;
+    top: 100%;
+    
+}
+
+.photo {
+    float: left;
+}
+
+.textInfo {
+    float: left;
+    margin-left: 65px;
+    width: 536px;
+}
+
+.pictureAndText {
+    padding: 50px;
+}
+
+.textInfo h1 {
+    margin-top: 26px;
+    font-family: 'hanyishuhun';
+    font-weight: 400;
+    font-size: 45px;
+}
+
+.textInfo p {
+    font-family: 'hanyishuhun';
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 5px;
+    color: #5b5b5b;
+}
+
+
+hr { 
+    height: 0px;
+    border: none;
+    border-top: 1px solid #dedede;
+}
+
+.textInfo hr {
+    margin: 20px 0px;
+}
+
+.descriptionList dl dt,
+.descriptionList dl dd {
+    float: left;
+    padding: 5px 0;
+    font-family: 'hanyishuhun';
+    font-size: 22px;
+
+}
+
+.descriptionList dl dt {
+    width: 30%;
+    font-weight: 400;
+}
+
+.descriptionList dl dd {
+    width: 70%;
+    color: #9da0a7;
+}
+
+
+
+ .skills h2 {
+    color: #3d4451;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-family: 'hanyishuhun';
+    
+}
+
+.skills ul {
+    padding: 30px 50px;
+}
+
+.skills ul li {
+    float: left;
+    list-style: none;
+    width: 50%;
+    padding-bottom: 34px;
+    box-sizing: border-box;
+}
+
+.bartitle {
+    margin-bottom: 4px;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.skillBar {
+    background-color: rgb(250, 225, 225);
+    border-radius: 4px;
+  
+}
+
+.skillBar .barLength {
+    height: 100%;
+    width: 50%;
+    border: 3px solid #bf3419;
+}
+
+.skills li:nth-child(5),
+.skills li:nth-child(6){
+   padding-bottom: 11px;
+}
+
+.allBar {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 2px 4px 15px 0px rgba(125,125,125,1);
+}
+
+
+.skills ul li:nth-child(even) {
+    float: right;
+    padding-left: 30px;
+}

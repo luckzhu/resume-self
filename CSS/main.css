@@ -23,7 +23,7 @@ a {
     top: 0;
     width: 100%;
     height: 100%;
-    /* background-image: url(./Image/bg1.jpg); */
+    background-image: url(../Image/bg2.png);
     background-position: center center;
     background-size: cover;
 }
@@ -62,6 +62,17 @@ a {
     font-family: 'hanyishuhun';
 }
 
+.mainInformation .navBar a:hover {
+    color: black;
+    background-color: aliceblue;
+    padding: 11px 28px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600px;
+    font-family: 'hanyishuhun';
+}
+
+
 .mainInformation .navBar ul {
     display: flex;
     align-items: center;
@@ -72,6 +83,7 @@ a {
 .mainInformation .navBar ul li {
     margin: 0 6px;
 }
+
 
 .socialBar {
     margin-top: 20px;
